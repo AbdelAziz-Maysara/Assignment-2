@@ -1,0 +1,172 @@
+body{
+  margin: 20px;
+  padding: 5px;
+}
+header{
+  text-align: center;
+  font-family: times;
+  font-size: 50px;
+}
+*{
+  box-sizing: border-box;
+}
+@media (min-width:992px){
+  
+
+.content1{
+  position: relative;
+  height:400px;
+  width:25.3333%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 4%;
+  overflow: auto;
+}
+
+.content2{
+  position: relative;
+  height:400px;
+  width:25.3333%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 4%;
+  overflow: auto;
+}
+
+.content3{
+  position: relative;
+  height:400px;
+  width:25.3333%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 4%;
+  overflow: auto;
+}
+.head{
+  position:absolute;
+  top:0;
+  right:0;
+  background-color: #899954;
+  color: white;
+  border: 1px solid black;
+  margin-top:0;
+}
+.p{
+  position:absolute;
+  top:60px;
+  font-weight:bold;
+}
+  }
+@media (max-width: 991px) and (min-width:768px) {
+  
+
+.content1{
+  position: relative;
+  height:400px;
+  width:40%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 5%;
+}
+
+.content2{
+  position: relative;
+  height:400px;
+  width:40%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 5%;
+}
+
+.content3{
+  position: relative;
+  height:400px;
+  width:90%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin: 5%;
+}
+.head{
+  position:absolute;
+  top:0;
+  right:0;
+  background-color: #899954;
+  color: white;
+  border: 1px solid black;
+  margin-top:0;
+}
+.p{
+  position:relative;
+  top:60px;
+  font-weight:bold;
+}
+  }
+
+@media (max-width:767px){
+  
+
+.content1{
+  position: relative;
+  
+  height: 300px;
+  width:100%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.content2{
+  position: relative;
+  height: 300px;
+  width:100%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  clear: left;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.content3{
+  position: relative;
+  height:300px;
+  width:100%;
+  background-color: #ccc;
+  border: 1px solid black;
+  float: left;
+  padding:5px;
+  clear: left;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.head{
+  position:absolute;
+  top:0;
+  right:0;
+  background-color: #899954;
+  color: white;
+  border: 1px solid black;
+  margin-top:0;
+}
+.p{
+  position:absolute;
+  top:60px;
+  font-weight:bold;
+}
+  }
